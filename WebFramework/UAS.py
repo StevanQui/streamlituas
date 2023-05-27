@@ -7,8 +7,8 @@ import seaborn as sns
 data = pd.read_csv('data_pengaduan.csv')
 
 # Menampilkan judul dan deskripsi dashboard
-st.title('Dashboard Laporan Pengaduan dan Aspirasi Masyarakat Jayapura')
-st.write('Ini adalah dashboard yang menampilkan laporan pengaduan dan aspirasi masyarakat Jayapura.')
+st.title('Dashboard Laporan Pengaduan dan Aspirasi Masyarakat')
+st.write('Ini adalah dashboard yang menampilkan laporan pengaduan dan aspirasi masyarakat.')
 
 # Menampilkan data pengaduan
 st.subheader('Data Pengaduan')
